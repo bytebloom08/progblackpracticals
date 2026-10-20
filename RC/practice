@@ -1,1 +1,177 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Badminton</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f7f4;
+            color: #243b35;
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(135deg, #075e54, #22a699);
+            color: white;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        header h1 {
+            font-size: 42px;
+            margin-bottom: 5px;
+        }
+
+        nav {
+            background-color: #064e46;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #a7f3d0;
+        }
+
+        main {
+            max-width: 850px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+
+        section {
+            background: white;
+            padding: 22px;
+            margin-bottom: 22px;
+            border-radius: 14px;
+            box-shadow: 0 4px 12px #00000010;
+        }
+
+        h2 {
+            color: #087f70;
+            border-bottom: 2px solid #a7e8dc;
+            padding-bottom: 8px;
+        }
+
+        ul, ol {
+            padding-left: 25px;
+        }
+
+        li {
+            padding: 6px;
+            margin-bottom: 5px;
+            transition: transform 0.2s;
+        }
+
+        li:hover {
+            transform: translateX(6px);
+            color: #087f70;
+        }
+
+        ul {
+            list-style-type: square;
+        }
+
+        .highlight {
+            background-color: #d9f7ee;
+            padding: 15px;
+            border-radius: 10px;
+            border-left: 5px solid #0d9488;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #064e46;
+            color: white;
+            padding: 18px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🏸 All About Badminton</h1>
+        <p>A fast-paced sport that combines speed, skill and strategy!</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#equipment">Equipment</a>
+        <a href="#rules">Rules</a>
+        <a href="#benefits">Benefits</a>
+    </nav>
+
+    <main>
+
+        <section id="about">
+            <h2>What is Badminton?</h2>
+            <p>
+                Badminton is a racket sport played by either two players
+                (singles) or four players (doubles). Players hit a shuttlecock
+                over a net, trying to make it land inside their opponent's court.
+            </p>
+            <p>
+                It is an Olympic sport that requires quick reactions,
+                coordination, agility and tactical thinking.
+            </p>
+            <div class="highlight">
+                <strong>Did you know?</strong>
+                The shuttlecock is designed to create significant air resistance,
+                which makes it slow down rapidly after being hit.
+            </div>
+        </section>
+
+        <section id="equipment">
+            <h2>Essential Equipment</h2>
+            <ul>
+                <li>🏸 Racket — used to hit the shuttlecock.</li>
+                <li>🪶 Shuttlecock — the object players hit across the net.</li>
+                <li>🥾 Court shoes — provide grip and support.</li>
+                <li>👕 Sportswear — comfortable clothing for movement.</li>
+                <li>🏟️ Net and court — define the playing area.</li>
+            </ul>
+        </section>
+
+        <section id="rules">
+            <h2>Basic Rules</h2>
+            <ol>
+                <li>A match is normally played as the best of three games.</li>
+                <li>Each game is played to 21 points.</li>
+                <li>A rally earns a point for the player or pair that wins it.</li>
+                <li>A player must hit the shuttlecock over the net and into the court.</li>
+                <li>The shuttlecock is out if it lands outside the relevant court boundaries.</li>
+            </ol>
+        </section>
+
+        <section id="benefits">
+            <h2>Why Play Badminton?</h2>
+            <ul>
+                <li>Improves cardiovascular fitness.</li>
+                <li>Develops hand-eye coordination.</li>
+                <li>Builds agility and reaction speed.</li>
+                <li>Encourages teamwork and communication.</li>
+                <li>Provides a fun way to socialise.</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Made by a badminton enthusiast 🏸</p>
+    </footer>
+
+</body>
+</html>
+
